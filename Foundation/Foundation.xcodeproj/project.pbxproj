@@ -68,10 +68,6 @@
 		AE03FC7E1B0A871100013784 /* NSURL+QueryComponents.h in Copy headers to framework */ = {isa = PBXBuildFile; fileRef = AE0CFF53176FE22200E6A958 /* NSURL+QueryComponents.h */; };
 		AE03FC7F1B0A871100013784 /* PCKReducable.h in Copy headers to framework */ = {isa = PBXBuildFile; fileRef = AB3CA16AA25276C6492C1383 /* PCKReducable.h */; };
 		AE03FC801B0A871100013784 /* NSURLConnectionDelegate.h in Copy headers to framework */ = {isa = PBXBuildFile; fileRef = AEA96B67168B50D900861DF1 /* NSURLConnectionDelegate.h */; };
-		AE03FC811B0A871100013784 /* PCKHTTPConnection.h in Copy headers to framework */ = {isa = PBXBuildFile; fileRef = AEA96B68168B50D900861DF1 /* PCKHTTPConnection.h */; };
-		AE03FC821B0A871100013784 /* PCKHTTPConnectionDelegate.h in Copy headers to framework */ = {isa = PBXBuildFile; fileRef = AEA96B6A168B50D900861DF1 /* PCKHTTPConnectionDelegate.h */; };
-		AE03FC831B0A871100013784 /* PCKHTTPConnectionOperation.h in Copy headers to framework */ = {isa = PBXBuildFile; fileRef = AEA96B6C168B50D900861DF1 /* PCKHTTPConnectionOperation.h */; };
-		AE03FC841B0A871100013784 /* PCKHTTPInterface.h in Copy headers to framework */ = {isa = PBXBuildFile; fileRef = AEA96B6E168B50D900861DF1 /* PCKHTTPInterface.h */; };
 		AE03FC851B0A871100013784 /* PCKParser.h in Copy headers to framework */ = {isa = PBXBuildFile; fileRef = AEA96B71168B50D900861DF1 /* PCKParser.h */; };
 		AE03FC861B0A871100013784 /* PCKParserDelegate.h in Copy headers to framework */ = {isa = PBXBuildFile; fileRef = AEA96B72168B50D900861DF1 /* PCKParserDelegate.h */; };
 		AE03FC871B0A871100013784 /* PCKResponseParser.h in Copy headers to framework */ = {isa = PBXBuildFile; fileRef = AEA96B73168B50D900861DF1 /* PCKResponseParser.h */; };
@@ -119,14 +115,6 @@
 		AEA96B80168B50D900861DF1 /* NSString+PivotalCore.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA96B64168B50D900861DF1 /* NSString+PivotalCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA96B81168B50D900861DF1 /* NSString+PivotalCore.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA96B65168B50D900861DF1 /* NSString+PivotalCore.m */; };
 		AEA96B82168B50D900861DF1 /* NSURLConnectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA96B67168B50D900861DF1 /* NSURLConnectionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEA96B83168B50D900861DF1 /* PCKHTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA96B68168B50D900861DF1 /* PCKHTTPConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEA96B84168B50D900861DF1 /* PCKHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA96B69168B50D900861DF1 /* PCKHTTPConnection.m */; };
-		AEA96B85168B50D900861DF1 /* PCKHTTPConnectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA96B6A168B50D900861DF1 /* PCKHTTPConnectionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEA96B86168B50D900861DF1 /* PCKHTTPConnectionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA96B6B168B50D900861DF1 /* PCKHTTPConnectionDelegate.m */; };
-		AEA96B87168B50D900861DF1 /* PCKHTTPConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA96B6C168B50D900861DF1 /* PCKHTTPConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEA96B88168B50D900861DF1 /* PCKHTTPConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA96B6D168B50D900861DF1 /* PCKHTTPConnectionOperation.m */; };
-		AEA96B89168B50D900861DF1 /* PCKHTTPInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA96B6E168B50D900861DF1 /* PCKHTTPInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEA96B8A168B50D900861DF1 /* PCKHTTPInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA96B6F168B50D900861DF1 /* PCKHTTPInterface.m */; };
 		AEA96B8B168B50D900861DF1 /* PCKParser.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA96B71168B50D900861DF1 /* PCKParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA96B8C168B50D900861DF1 /* PCKParserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA96B72168B50D900861DF1 /* PCKParserDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA96B8D168B50D900861DF1 /* PCKResponseParser.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA96B73168B50D900861DF1 /* PCKResponseParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -153,10 +141,6 @@
 		AEA96BF1168B56BF00861DF1 /* NSObjectSpec+MethodRedirection.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEA96BE3168B56BF00861DF1 /* NSObjectSpec+MethodRedirection.mm */; };
 		AEA96BF2168B56BF00861DF1 /* NSStringSpec+PivotalCore.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEA96BE4168B56BF00861DF1 /* NSStringSpec+PivotalCore.mm */; };
 		AEA96BF3168B56BF00861DF1 /* NSURLConnectionSpec+Spec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEA96BE5168B56BF00861DF1 /* NSURLConnectionSpec+Spec.mm */; };
-		AEA96BF4168B56BF00861DF1 /* PCKHTTPConnectionDelegateSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEA96BE7168B56BF00861DF1 /* PCKHTTPConnectionDelegateSpec.mm */; };
-		AEA96BF5168B56BF00861DF1 /* PCKHTTPConnectionOperationSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEA96BE8168B56BF00861DF1 /* PCKHTTPConnectionOperationSpec.mm */; };
-		AEA96BF6168B56BF00861DF1 /* PCKHTTPConnectionSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEA96BE9168B56BF00861DF1 /* PCKHTTPConnectionSpec.mm */; };
-		AEA96BF7168B56BF00861DF1 /* PCKHTTPInterfaceSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEA96BEA168B56BF00861DF1 /* PCKHTTPInterfaceSpec.mm */; };
 		AEA96BF9168B56BF00861DF1 /* PCKResponseParserSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEA96BED168B56BF00861DF1 /* PCKResponseParserSpec.mm */; };
 		AEA96BFA168B56BF00861DF1 /* PCKXMLParserSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEA96BEE168B56BF00861DF1 /* PCKXMLParserSpec.mm */; };
 		AEA96BFE168B56FA00861DF1 /* Foundation+PivotalCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA96B49168B506500861DF1 /* Foundation+PivotalCore.framework */; };
@@ -179,10 +163,6 @@
 		AEA96CA8168B67FB00861DF1 /* NSObject+MethodDecoration.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA96B61168B50D900861DF1 /* NSObject+MethodDecoration.m */; };
 		AEA96CA9168B67FB00861DF1 /* NSObject+MethodRedirection.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA96B63168B50D900861DF1 /* NSObject+MethodRedirection.m */; };
 		AEA96CAA168B67FB00861DF1 /* NSString+PivotalCore.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA96B65168B50D900861DF1 /* NSString+PivotalCore.m */; };
-		AEA96CAB168B67FB00861DF1 /* PCKHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA96B69168B50D900861DF1 /* PCKHTTPConnection.m */; };
-		AEA96CAC168B67FB00861DF1 /* PCKHTTPConnectionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA96B6B168B50D900861DF1 /* PCKHTTPConnectionDelegate.m */; };
-		AEA96CAD168B67FB00861DF1 /* PCKHTTPConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA96B6D168B50D900861DF1 /* PCKHTTPConnectionOperation.m */; };
-		AEA96CAE168B67FB00861DF1 /* PCKHTTPInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA96B6F168B50D900861DF1 /* PCKHTTPInterface.m */; };
 		AEA96CAF168B67FB00861DF1 /* PCKResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA96B74168B50D900861DF1 /* PCKResponseParser.m */; };
 		AEA96CB0168B67FB00861DF1 /* PCKXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA96B76168B50D900861DF1 /* PCKXMLParser.m */; };
 		AEA96CB1168B67FB00861DF1 /* PCKXMLParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA96B78168B50D900861DF1 /* PCKXMLParserDelegate.m */; };
@@ -191,10 +171,6 @@
 		AEA96CB4168B688700861DF1 /* NSObjectSpec+MethodRedirection.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEA96BE3168B56BF00861DF1 /* NSObjectSpec+MethodRedirection.mm */; };
 		AEA96CB5168B688700861DF1 /* NSStringSpec+PivotalCore.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEA96BE4168B56BF00861DF1 /* NSStringSpec+PivotalCore.mm */; };
 		AEA96CB6168B688700861DF1 /* NSURLConnectionSpec+Spec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEA96BE5168B56BF00861DF1 /* NSURLConnectionSpec+Spec.mm */; };
-		AEA96CB7168B688700861DF1 /* PCKHTTPConnectionDelegateSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEA96BE7168B56BF00861DF1 /* PCKHTTPConnectionDelegateSpec.mm */; };
-		AEA96CB8168B688700861DF1 /* PCKHTTPConnectionOperationSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEA96BE8168B56BF00861DF1 /* PCKHTTPConnectionOperationSpec.mm */; };
-		AEA96CB9168B688700861DF1 /* PCKHTTPConnectionSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEA96BE9168B56BF00861DF1 /* PCKHTTPConnectionSpec.mm */; };
-		AEA96CBA168B688700861DF1 /* PCKHTTPInterfaceSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEA96BEA168B56BF00861DF1 /* PCKHTTPInterfaceSpec.mm */; };
 		AEA96CBB168B688700861DF1 /* PCKResponseParserSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEA96BED168B56BF00861DF1 /* PCKResponseParserSpec.mm */; };
 		AEA96CBC168B688700861DF1 /* PCKXMLParserSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AEA96BEE168B56BF00861DF1 /* PCKXMLParserSpec.mm */; };
 		AEA96CBD168B688700861DF1 /* FixturesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA96C38168B602700861DF1 /* FixturesHelper.m */; };
@@ -420,9 +396,7 @@
 				AE03FC8E1B0A871100013784 /* PCKCompletionHandler.h in Copy headers to framework */,
 				AE03FC7E1B0A871100013784 /* NSURL+QueryComponents.h in Copy headers to framework */,
 				AE03FC851B0A871100013784 /* PCKParser.h in Copy headers to framework */,
-				AE03FC821B0A871100013784 /* PCKHTTPConnectionDelegate.h in Copy headers to framework */,
 				AE03FC8A1B0A871100013784 /* Foundation+PivotalCore.h in Copy headers to framework */,
-				AE03FC831B0A871100013784 /* PCKHTTPConnectionOperation.h in Copy headers to framework */,
 				AE03FC871B0A871100013784 /* PCKResponseParser.h in Copy headers to framework */,
 				AE03FC7D1B0A871100013784 /* NSDictionary+QueryString.h in Copy headers to framework */,
 				AE03FC781B0A871100013784 /* NSData+PivotalCore.h in Copy headers to framework */,
@@ -430,12 +404,10 @@
 				AE03FC891B0A871100013784 /* PCKXMLParserDelegate.h in Copy headers to framework */,
 				AE03FC791B0A871100013784 /* NSObject+MethodDecoration.h in Copy headers to framework */,
 				AE03FC8C1B0A871100013784 /* PCKErrorBlock.h in Copy headers to framework */,
-				AE03FC841B0A871100013784 /* PCKHTTPInterface.h in Copy headers to framework */,
 				AE03FC7C1B0A871100013784 /* NSArray+PivotalCore.h in Copy headers to framework */,
 				AE03FC7B1B0A871100013784 /* NSString+PivotalCore.h in Copy headers to framework */,
 				AE03FC881B0A871100013784 /* PCKXMLParser.h in Copy headers to framework */,
 				AE03FC7F1B0A871100013784 /* PCKReducable.h in Copy headers to framework */,
-				AE03FC811B0A871100013784 /* PCKHTTPConnection.h in Copy headers to framework */,
 				AE03FC7A1B0A871100013784 /* NSObject+MethodRedirection.h in Copy headers to framework */,
 				AE03FC771B0A871100013784 /* NSDictionary+TypesafeExtraction.h in Copy headers to framework */,
 				AE03FC861B0A871100013784 /* PCKParserDelegate.h in Copy headers to framework */,
@@ -539,14 +511,6 @@
 		AEA96B64168B50D900861DF1 /* NSString+PivotalCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PivotalCore.h"; sourceTree = "<group>"; };
 		AEA96B65168B50D900861DF1 /* NSString+PivotalCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PivotalCore.m"; sourceTree = "<group>"; };
 		AEA96B67168B50D900861DF1 /* NSURLConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLConnectionDelegate.h; sourceTree = "<group>"; };
-		AEA96B68168B50D900861DF1 /* PCKHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCKHTTPConnection.h; sourceTree = "<group>"; };
-		AEA96B69168B50D900861DF1 /* PCKHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCKHTTPConnection.m; sourceTree = "<group>"; };
-		AEA96B6A168B50D900861DF1 /* PCKHTTPConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCKHTTPConnectionDelegate.h; sourceTree = "<group>"; };
-		AEA96B6B168B50D900861DF1 /* PCKHTTPConnectionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCKHTTPConnectionDelegate.m; sourceTree = "<group>"; };
-		AEA96B6C168B50D900861DF1 /* PCKHTTPConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCKHTTPConnectionOperation.h; sourceTree = "<group>"; };
-		AEA96B6D168B50D900861DF1 /* PCKHTTPConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCKHTTPConnectionOperation.m; sourceTree = "<group>"; };
-		AEA96B6E168B50D900861DF1 /* PCKHTTPInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCKHTTPInterface.h; sourceTree = "<group>"; };
-		AEA96B6F168B50D900861DF1 /* PCKHTTPInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCKHTTPInterface.m; sourceTree = "<group>"; };
 		AEA96B71168B50D900861DF1 /* PCKParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCKParser.h; sourceTree = "<group>"; };
 		AEA96B72168B50D900861DF1 /* PCKParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCKParserDelegate.h; sourceTree = "<group>"; };
 		AEA96B73168B50D900861DF1 /* PCKResponseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCKResponseParser.h; sourceTree = "<group>"; };
@@ -576,10 +540,6 @@
 		AEA96BE3168B56BF00861DF1 /* NSObjectSpec+MethodRedirection.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSObjectSpec+MethodRedirection.mm"; sourceTree = "<group>"; };
 		AEA96BE4168B56BF00861DF1 /* NSStringSpec+PivotalCore.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSStringSpec+PivotalCore.mm"; sourceTree = "<group>"; };
 		AEA96BE5168B56BF00861DF1 /* NSURLConnectionSpec+Spec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSURLConnectionSpec+Spec.mm"; sourceTree = "<group>"; };
-		AEA96BE7168B56BF00861DF1 /* PCKHTTPConnectionDelegateSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PCKHTTPConnectionDelegateSpec.mm; sourceTree = "<group>"; };
-		AEA96BE8168B56BF00861DF1 /* PCKHTTPConnectionOperationSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PCKHTTPConnectionOperationSpec.mm; sourceTree = "<group>"; };
-		AEA96BE9168B56BF00861DF1 /* PCKHTTPConnectionSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PCKHTTPConnectionSpec.mm; sourceTree = "<group>"; };
-		AEA96BEA168B56BF00861DF1 /* PCKHTTPInterfaceSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PCKHTTPInterfaceSpec.mm; sourceTree = "<group>"; };
 		AEA96BED168B56BF00861DF1 /* PCKResponseParserSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PCKResponseParserSpec.mm; sourceTree = "<group>"; };
 		AEA96BEE168B56BF00861DF1 /* PCKXMLParserSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PCKXMLParserSpec.mm; sourceTree = "<group>"; };
 		AEA96C06168B58AA00861DF1 /* FakeConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeConnectionDelegate.h; sourceTree = "<group>"; };
@@ -829,14 +789,6 @@
 			isa = PBXGroup;
 			children = (
 				AEA96B67168B50D900861DF1 /* NSURLConnectionDelegate.h */,
-				AEA96B68168B50D900861DF1 /* PCKHTTPConnection.h */,
-				AEA96B69168B50D900861DF1 /* PCKHTTPConnection.m */,
-				AEA96B6A168B50D900861DF1 /* PCKHTTPConnectionDelegate.h */,
-				AEA96B6B168B50D900861DF1 /* PCKHTTPConnectionDelegate.m */,
-				AEA96B6C168B50D900861DF1 /* PCKHTTPConnectionOperation.h */,
-				AEA96B6D168B50D900861DF1 /* PCKHTTPConnectionOperation.m */,
-				AEA96B6E168B50D900861DF1 /* PCKHTTPInterface.h */,
-				AEA96B6F168B50D900861DF1 /* PCKHTTPInterface.m */,
 			);
 			path = Interfaces;
 			sourceTree = "<group>";
@@ -912,10 +864,6 @@
 		AEA96BE6168B56BF00861DF1 /* Interfaces */ = {
 			isa = PBXGroup;
 			children = (
-				AEA96BE7168B56BF00861DF1 /* PCKHTTPConnectionDelegateSpec.mm */,
-				AEA96BE8168B56BF00861DF1 /* PCKHTTPConnectionOperationSpec.mm */,
-				AEA96BE9168B56BF00861DF1 /* PCKHTTPConnectionSpec.mm */,
-				AEA96BEA168B56BF00861DF1 /* PCKHTTPInterfaceSpec.mm */,
 			);
 			path = Interfaces;
 			sourceTree = "<group>";
@@ -1051,11 +999,7 @@
 				AEA96B7E168B50D900861DF1 /* NSObject+MethodRedirection.h in Headers */,
 				AEA96B80168B50D900861DF1 /* NSString+PivotalCore.h in Headers */,
 				AEA96B82168B50D900861DF1 /* NSURLConnectionDelegate.h in Headers */,
-				AEA96B83168B50D900861DF1 /* PCKHTTPConnection.h in Headers */,
 				34681C0F18FD9516009D38AC /* NSDictionary+TypesafeExtraction.h in Headers */,
-				AEA96B85168B50D900861DF1 /* PCKHTTPConnectionDelegate.h in Headers */,
-				AEA96B87168B50D900861DF1 /* PCKHTTPConnectionOperation.h in Headers */,
-				AEA96B89168B50D900861DF1 /* PCKHTTPInterface.h in Headers */,
 				AEA96B8B168B50D900861DF1 /* PCKParser.h in Headers */,
 				AE7A67C518E5C073004A35BE /* NSURL+QueryComponents.h in Headers */,
 				AEA96B8C168B50D900861DF1 /* PCKParserDelegate.h in Headers */,
@@ -1503,11 +1447,7 @@
 				AEA96B7F168B50D900861DF1 /* NSObject+MethodRedirection.m in Sources */,
 				AE7A67C718E5C077004A35BE /* NSURL+QueryComponents.m in Sources */,
 				AEA96B81168B50D900861DF1 /* NSString+PivotalCore.m in Sources */,
-				AEA96B84168B50D900861DF1 /* PCKHTTPConnection.m in Sources */,
-				AEA96B86168B50D900861DF1 /* PCKHTTPConnectionDelegate.m in Sources */,
-				AEA96B88168B50D900861DF1 /* PCKHTTPConnectionOperation.m in Sources */,
 				34681C1018FD9516009D38AC /* NSDictionary+TypesafeExtraction.m in Sources */,
-				AEA96B8A168B50D900861DF1 /* PCKHTTPInterface.m in Sources */,
 				AEA96B8E168B50D900861DF1 /* PCKResponseParser.m in Sources */,
 				AEA96B90168B50D900861DF1 /* PCKXMLParser.m in Sources */,
 				AEA96B92168B50D900861DF1 /* PCKXMLParserDelegate.m in Sources */,
@@ -1543,11 +1483,7 @@
 				AEA96BF1168B56BF00861DF1 /* NSObjectSpec+MethodRedirection.mm in Sources */,
 				AEA96BF2168B56BF00861DF1 /* NSStringSpec+PivotalCore.mm in Sources */,
 				AEA96BF3168B56BF00861DF1 /* NSURLConnectionSpec+Spec.mm in Sources */,
-				AEA96BF4168B56BF00861DF1 /* PCKHTTPConnectionDelegateSpec.mm in Sources */,
-				AEA96BF5168B56BF00861DF1 /* PCKHTTPConnectionOperationSpec.mm in Sources */,
-				AEA96BF6168B56BF00861DF1 /* PCKHTTPConnectionSpec.mm in Sources */,
 				AE969353182D97A900E7306C /* NSUUIDSpec+Spec.mm in Sources */,
-				AEA96BF7168B56BF00861DF1 /* PCKHTTPInterfaceSpec.mm in Sources */,
 				AEA96BF9168B56BF00861DF1 /* PCKResponseParserSpec.mm in Sources */,
 				AEA96BFA168B56BF00861DF1 /* PCKXMLParserSpec.mm in Sources */,
 				AEA96C08168B58AA00861DF1 /* FakeConnectionDelegate.m in Sources */,
@@ -1578,11 +1514,7 @@
 				AEA96CA9168B67FB00861DF1 /* NSObject+MethodRedirection.m in Sources */,
 				AE7A67C618E5C077004A35BE /* NSURL+QueryComponents.m in Sources */,
 				AEA96CAA168B67FB00861DF1 /* NSString+PivotalCore.m in Sources */,
-				AEA96CAB168B67FB00861DF1 /* PCKHTTPConnection.m in Sources */,
-				AEA96CAC168B67FB00861DF1 /* PCKHTTPConnectionDelegate.m in Sources */,
-				AEA96CAD168B67FB00861DF1 /* PCKHTTPConnectionOperation.m in Sources */,
 				34681C1118FD9516009D38AC /* NSDictionary+TypesafeExtraction.m in Sources */,
-				AEA96CAE168B67FB00861DF1 /* PCKHTTPInterface.m in Sources */,
 				AEA96CAF168B67FB00861DF1 /* PCKResponseParser.m in Sources */,
 				AEA96CB0168B67FB00861DF1 /* PCKXMLParser.m in Sources */,
 				AEA96CB1168B67FB00861DF1 /* PCKXMLParserDelegate.m in Sources */,
@@ -1619,11 +1551,7 @@
 				AEA96CB4168B688700861DF1 /* NSObjectSpec+MethodRedirection.mm in Sources */,
 				AEA96CB5168B688700861DF1 /* NSStringSpec+PivotalCore.mm in Sources */,
 				AEA96CB6168B688700861DF1 /* NSURLConnectionSpec+Spec.mm in Sources */,
-				AEA96CB7168B688700861DF1 /* PCKHTTPConnectionDelegateSpec.mm in Sources */,
-				AEA96CB8168B688700861DF1 /* PCKHTTPConnectionOperationSpec.mm in Sources */,
 				AE969354182D97A900E7306C /* NSUUIDSpec+Spec.mm in Sources */,
-				AEA96CB9168B688700861DF1 /* PCKHTTPConnectionSpec.mm in Sources */,
-				AEA96CBA168B688700861DF1 /* PCKHTTPInterfaceSpec.mm in Sources */,
 				AEA96CBB168B688700861DF1 /* PCKResponseParserSpec.mm in Sources */,
 				AEA96CBC168B688700861DF1 /* PCKXMLParserSpec.mm in Sources */,
 				AEA96CBD168B688700861DF1 /* FixturesHelper.m in Sources */,
